@@ -1,0 +1,19 @@
+<!--banner 轮播-->
+<swiper indicator-dots="true" circular>
+  <swiper-item wx:for="{{swiperlist}}" wx:key="id">
+    <image src="{{item.image}}"></image>
+  </swiper-item>
+</swiper>
+
+<view class="grid-list">
+  <navigator class="grid-item" wx:for="{{gridList}}" wx:key="id" url="{{item.url}}" >
+    <image src="{{item.icon}}"></image>
+    <text>{{item.name}}</text>
+  </navigator>
+</view>
+
+<view class="img-box">
+  <image src="../../images/banner02.jpg" mode="widthFix"></image>
+  <image src="../../images/banner02.jpg" mode="widthFix"></image>
+</view>
+

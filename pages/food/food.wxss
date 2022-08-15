@@ -1,0 +1,25 @@
+.food-item{
+  display: flex;
+  padding: 15rpx;
+  border: 1rpx solid #efefef;
+  border-radius: 8rpx;/**圆角**/
+  margin: 15rpx;
+  box-shadow: 1rpx 1rpx 15rpx #ddd;/**盒子阴影，横向1 纵向1 阴影扩散15 **/
+}
+
+.thumb image{
+  width: 288rpx;
+  height: 174rpx;
+  display: block;/**取消图片间距**/
+  margin-right: 15rpx;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;/**分散对齐**/
+  font-size: 24rpx;
+}
+.food-title{
+  font-weight: bold;
+}

@@ -1,0 +1,15 @@
+function splitPhone(phone){
+  if (phone.length !== 11){
+    return phone
+  }else{
+    var arr=phone.split('') 
+    arr.splice(3,0,'-')//给第三个字符后加’-‘
+    arr.splice(8,0,'-')
+    return arr.join('');
+  }
+  
+}
+
+module.exports = {
+  splitPhone:splitPhone
+}

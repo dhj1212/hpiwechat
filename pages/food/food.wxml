@@ -1,0 +1,13 @@
+<view class="food-item" wx:for="{{foodList}}" wx:key="id">
+  <view class="thumb">
+    <image src="{{item.image}}"></image>
+  </view>
+  <view class="info">
+    <text class="food-title">{{item.name}}</text>
+    <text>电话：{{tools.splitPhone(item.phone)}}</text>
+    <text>地址：{{item.address}}</text>
+    <text>营业时间：{{item.businessHous}}</text>
+  </view>
+</view>
+
+<wxs src="../../utils/tools.wxs" module="tools"></wxs>
