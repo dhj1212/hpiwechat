@@ -1,38 +1,13 @@
-# 微信小程序商城
+# 微信小程序测试环境
 
 本升序是微信小程序测试环境，测试各个功能；
 
 使用说明和常见问题，可参阅下面的说明，如还有疑问，可访问工厂官网 
 
-本项目依赖：
-# Vant Weapp
+## 本项目依赖：
+### Vant Weapp
 npm i @vant/weapp -S --production
 
-
-# uni-app版本
-
-[https://github.com/gooking/uni-app-mall](https://github.com/gooking/uni-app-mall)
-
-[码云镜像](https://gitee.com/javazj/uni-app-mall)
-
-## 扫码体验
-
-<img src="https://7.s2m.cc/2021/10/05/d15d243a-951f-4ec8-8f34-422368a20d91.jpeg" width="200px">
-
-## 详细配置/使用教程
-
-[https://www.it120.cc/help/ikfe2k.html](https://www.it120.cc/help/ikfe2k.html)
-
-**遇到使用问题？**
-
-[点击这里找答案，可用关键词搜索](https://www.it120.cc/help.html)
-
-## 其他开源模板
-
-| 舔果果小铺（升级版） | 面馆风格小程序 | AI名片 |
-| :------: | :------: | :------: |
-| <img src="https://dcdn.it120.cc/2020/08/30/fd095c58-e655-4785-af0a-89e0b4da7cfe.jpg" width="200px"> | <img src="https://dcdn.it120.cc/2021/06/25/5caa3793-2e70-43ef-b86a-356c26d89e19.jpeg" width="200px"> | <img src="https://cdn.it120.cc/apifactory/2018/12/18/c2324da4eea91602f385db5b523b13ca.jpg" width="200px"> | 
-| [开源地址](https://github.com/gooking/TianguoguoXiaopu) | [开源地址](https://gitee.com/javazj/noodle_shop_procedures) | [开源地址](https://github.com/gooking/visitingCard) |
 
 ## 联系作者
 
