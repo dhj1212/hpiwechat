@@ -5,7 +5,7 @@
 使用说明和常见问题，可参阅下面的说明，如还有疑问，可访问工厂官网 
 
 ## 本项目依赖：
-### Vant Weapp
+### 1、Vant Weapp
 npm i @vant/weapp -S --production
 
 

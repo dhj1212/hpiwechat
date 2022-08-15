@@ -1,4 +1,5 @@
 // pages/vantWeapp/vantWeapp.js
+import { login } from "../../utils/api";
 Page({
 
   /**
@@ -8,6 +9,30 @@ Page({
 
   },
 
+  logintest(){
+    login({loginid:"251609",age:12}).then(res=>{
+      console.log(res);
+    })
+  },
+
+  logintest1(){
+    wx.request({
+      method: "POST",
+      url: "http://localhost:8088/logintest",
+      data: {loginid:"251609"},
+      header: {
+          //'content-type': 'application/x-www-form-urlencoded'
+          'content-type': 'application/x-www-form-urlencoded'
+      },
+      success(res) {
+          //resolve(res.data) // 将请求成功后得到的数据返回出去 用then方法接收到数据
+          console.log(res);
+      },
+      fail(err) {
+        console.log("err",err);
+      }
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

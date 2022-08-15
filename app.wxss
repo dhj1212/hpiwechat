@@ -8,3 +8,11 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+/**全局样式主题**/
+page {
+  --button-border-radius: 10px; /**按钮圆角**/
+  --button-default-color: green;/**按钮字体颜色**/
+  --toast-max-width: 100px;
+  --toast-background-color: pink;
+  /**--button-danger-background-color: @pink;**/
+}
